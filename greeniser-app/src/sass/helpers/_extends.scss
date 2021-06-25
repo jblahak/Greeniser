@@ -1,0 +1,15 @@
+%flex_center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+%flex_centerY {
+    display: flex;
+    align-items: center;
+}
+
+%flex_centerX {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+body{
+  main{
+    section{
+      &#bulb-section{
+        height: 100vh;
+        display: flex;
+
+        div{
+          &.textWrapper{
+            width: 300px;
+            margin-left: auto;
+            margin-right: 230px;
+
+            h2, p,{
+              margin: 0 auto;
+            }
+
+            p{
+              font-size: 20px;
+              margin-top: 50px;
+              margin-bottom: 15px;
+            }
+
+            a{
+              width: 100px;
+              text-align: center;
+            }
+          }
+
+          &.bulb-container{
+            img{
+              width: 300px;
+              margin: auto;
+            }
+          }
+
+          width: 50%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

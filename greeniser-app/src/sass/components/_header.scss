@@ -1,0 +1,44 @@
+header {
+    div{
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, .2);
+      padding: 10px 0;
+      font-size: 16px;
+
+      ul{
+        display: inherit;
+        list-style-type: none;
+
+        li{
+          &.supportgreeniser{
+            border-right: 1px solid rgba(255, 255, 255, .2);;
+            margin-right: 25px;
+            padding-right: 60px;
+          }
+        }
+      }
+    }
+
+    nav{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      margin: 50px auto 0 auto !important;
+
+      a{
+        text-decoration: none;
+      }
+
+      ul{
+        margin-left: auto;
+        display: inherit;
+
+        li{
+          margin: 0 20px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+}

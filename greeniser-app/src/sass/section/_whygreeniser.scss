@@ -1,0 +1,49 @@
+body{
+  main{
+    section{
+      &#pourquoi-greeniser{
+        background: white;
+        padding: 150px 0;
+
+        div{
+
+          &.title-container{
+            h3{
+              color: #1E667A;
+              font-size: 46px;
+              font-weight: 400;
+              margin-bottom: 30px;
+            }
+
+            p{
+              color: #4E4E4E;
+              font-weight: 300;
+              font-size: 22px;
+            }
+          }
+
+          &.txt-container{
+            margin: 100px auto 0 auto;
+            width: 85%;
+
+
+            p{
+              &:first-child{
+                margin-bottom: 40px;
+              }
+            }
+          }
+        }
+
+        h3, p{
+          text-align: center;
+        }
+
+        p{
+          color: black;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

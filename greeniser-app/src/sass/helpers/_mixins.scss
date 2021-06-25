@@ -1,0 +1,6 @@
+@mixin font($x) {
+    @font-face {
+        font-family: $x;
+        src: url('../../fonts/#{$x}.ttf');
+    }
+}

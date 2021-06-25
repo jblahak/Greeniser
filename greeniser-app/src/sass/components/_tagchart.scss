@@ -1,0 +1,28 @@
+div{
+  &.container-tag1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  &.container-tag2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &.tag-chart{
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    background: white;
+    border-radius: 30px;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+
+  &.tag-chart:hover{
+    background: #86FFD5;
+  }
+}

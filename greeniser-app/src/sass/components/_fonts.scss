@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+  body{
+    header{
+      nav{
+        h1{
+          font-weight: 400;
+        }
+        a{
+          font-family: 'Poppins', sans-serif;
+        }
+      }
+    }
+    section{
+      &#bulb-section{
+        div{
+          &.textWrapper{
+            h2{
+              font-size: 63px;
+              font-weight: 400;
+            }
+
+            p{
+              font-size: 22px;
+              font-family: 'Poppins', sans-serif;
+              font-weight: 300;
+            }
+
+            a.buttonLink{
+              font-family: 'Poppins', sans-serif;
+            }
+          }
+        }
+      }
+
+      &#responsible-section{
+        h2{
+          font-weight: 400;
+          font-size: 63px;
+          text-align: center;
+        }
+
+        p{
+          color: #606060;
+          font-size: 16px;
+
+          &.little-title{
+            color: #222323;
+            font-size: 23px;
+          }
+        }
+      }
+
+      &#pourquoi-informer{
+        h3{
+          font-size: 50px;
+          font-weight: 400;
+        }
+
+        p{
+          font-weight: bold;
+        }
+      }
+
+      &#chart-section{
+        h3{
+          font-size: 46px;
+          font-weight: 400;
+          text-align: center;
+        }
+
+        div{
+          &.tag-chart{
+            p{
+              color: black;
+              text-align: center;
+              font-weight: 600;
+              font-size: 20px;
+            }
+          }
+
+          &.bilan-container{
+            p.title{
+              font-size: 35px;
+              font-weight: 400;
+              text-align: center;
+            }
+
+            div.card-bilan{
+              p{
+                color: black;
+                font-size: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
